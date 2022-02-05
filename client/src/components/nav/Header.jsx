@@ -27,11 +27,11 @@ const Header = () => {
         className="ml-auto"
       >
         <Item key="setting:1">
-          <Link>Option 1 </Link>
+          <Link to="/">Option 1 </Link>
         </Item>
 
         <Item key="setting:2">
-          <Link>Option 2</Link>
+          <Link to="/">Option 2</Link>
         </Item>
       </SubMenu>
       <Item key="login" icon={<UserOutlined />}>
